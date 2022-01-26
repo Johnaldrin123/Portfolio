@@ -6,6 +6,7 @@
     cursor:pointer;
     background: #FFEDE0;
     font-family: 'Poppins', sans-serif;
+    max-width:1281px;
 }
 /*toggle*/
 
@@ -326,7 +327,7 @@ footer{
     text-align: center;
 }
 /* media queries */
-@media screen and (min-width:1281px){
+@media screen and (min-width:1200px){
     .brand-title{
         font-weight: 900;
         padding-left: 100px;
