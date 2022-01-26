@@ -6,7 +6,7 @@
     cursor:pointer;
     background: #FFEDE0;
     font-family: 'Poppins', sans-serif;
-    }
+}
 /*toggle*/
 
 .brand-title{
@@ -43,11 +43,9 @@ padding-top:19px;
 
     .navbar-links {
         display:none;
-        width: 100%;
     }
 
     .navbar-links ul {
-        width: 100%;
         flex-direction: column;
         margin-top:100px;
         margin-bottom:170px;
@@ -69,7 +67,7 @@ padding-top:19px;
     display: block;
     font-size:.9em;
     font-weight: 500;
-    }
+    } 
     li a{
     display:block;
     text-decoration: none;
@@ -82,8 +80,6 @@ padding-top:19px;
     }
 
 /*toggle end*/
-
-
 .social-section{
     display:flex;
     padding-top: 190px;
@@ -146,6 +142,7 @@ border: none;
 .about-section{
     height: 100vh;
     margin-top:150px;
+    box-sizing: border-box;
 }
 .about-me{
     padding-top: 20px;
@@ -166,8 +163,6 @@ h1{
 }
 .about-content{
 margin-top:20px;
-}
-.btn-cv{
 }
 .btn-download-cv{
     padding: 0.7rem 1.3rem;
@@ -239,6 +234,7 @@ padding: 0px 28px;
 .portfolio-section{
     margin-top: 150px;
     margin-bottom: 100px;
+    z-index:-1;
 }
 .arch-design, .photography, .interior-design,.web-design{
     height: 300px;
@@ -330,7 +326,127 @@ footer{
     text-align: center;
 }
 /* media queries */
-   @media (min-width: 1025px) and (max-width: 1280px){
-         
-  }
+
+@media screen and (min-width: 1024px) {
+    .brand-title{
+        font-weight: 900;
+        padding-left: 100px;
+    }
+    .navbar{
+        display:flex;
+    }
+    .toggle-button{
+        display: none;
+    }
+    .navbar-links{
+       margin-left: 700px;
+        display: inline;
+        width: 600px;
+        margin-top: -145px;
+    }
+    li a{
+        float: left;
+        margin-left: 10px;
+        font-size: 1.2em;
+    }
+.social-links{
+    padding:0px 60px 0px 150px;
+    margin-top: 50px;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.3em;
+}
+p{
+    font-size: 1em;
+}
+.img{
+    display:flex;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -35px;
+}
+.para1{
+    width: 30vw;
+    margin-right:200px;
+}
+.social-link-icon{
+    font-size: 1.3em;
+}
+.about-content{
+    display: flex;
+    padding: 0px 0px 0px 100px;
+}
+.about-section{
+    padding-top: 110px;
+    padding-left: 70px;
+}
+.about-me{
+    font-size: 1em;
+    padding-top: 60px;
+    padding-right: 100px;
+}
+.btn-cv{
+    margin:-50px 0px 0px 380px;
+}
+.skill-section{
+    padding-top: 50px;
+}
+/* portfolio section */
+.portfolio-container{
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns:300px 300px 300px;
+}
+.portfolio-section{
+    margin-left: 115px;
+}
+/* contact section */
+.contact-container{
+    display: flex;
+    width: 90%;
+    padding:80px 0px;
+    margin:0px 5%;
+
+}
+input, textarea{
+    width: 450px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: .8em;
+    font-weight: 400;
+}
+.contact-section{
+    margin: 0;
+    padding-top: 30px;
+    background-color: #f37a16;
+    height: 80vh;
+}
+.contact-info{
+    padding-top: 25px;
+    width: 50%;
+}
+.contact-title{
+    font-size: 3em;
+    font-weight: 800;
+    color: #FF933B;
+    background-color: #211C18;
+    padding-left: 80px;
+}
+.contact-para-info{
+    padding-left: 80px;
+    font-size: 1em;
+}
+.contact-btn{
+    margin-left: 70px;
+}
+}
+
 
