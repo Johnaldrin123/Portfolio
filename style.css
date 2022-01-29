@@ -325,7 +325,7 @@ input, textarea{
 }
 @media only screen and (max-width: 768px) {
 .header{
-    padding: 0px 20px 0px 60px;
+    padding: 0px 20px;
 }
     .nav-menu {
         position: fixed;
@@ -367,7 +367,7 @@ input, textarea{
     /*home section*/
     .main-container{
      padding-top:130px;
-     padding-left: 70px;
+
     }
     #para-container{
    width:190px;
@@ -407,7 +407,7 @@ input, textarea{
     }
     /*about section*/
     .img2{
-        margin-left:70px;
+        margin-left:50px;
     }
     .about-me{
     clear: left;
@@ -421,13 +421,13 @@ input, textarea{
     text-align: justify;
     }
     .btn-cv{
-   padding-left:70px;
+   padding-left:50px;
    }
    
    /*skill section*/
    .skill-container{
    padding-top:500px;
-   margin-left: 70px;
+   margin-left: 50px;
    }
    .skill-content{
    display: grid;
