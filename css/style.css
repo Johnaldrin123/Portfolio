@@ -547,6 +547,8 @@ header .follow a:hover{
     header{
         width:100%;
     }
+    .home .image img{
+        display:none;
 
     .experience .box-container .box{
         padding-right: 0;
